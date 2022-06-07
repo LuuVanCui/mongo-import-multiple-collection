@@ -1,0 +1,176 @@
+{
+  "enginefamilies": [
+    {
+      "_id": "6156d7bfa9ef06183decd756",
+      "name": "UnittestEngineFamily",
+      "customer": "6156d7cea9ef06183decd757",
+      "combustionProcess": "6156d7dfa9ef06183decd758",
+      "__v": 0
+    }
+  ],
+  "datasetreleases": [
+    {
+      "_id": "6156d86ba9ef06183decd75f",
+      "variant": "6156d7eda9ef06183decd759",
+      "swVersion": "swVersion",
+      "maturity": "6156d76fa9ef06183decd753",
+      "webflowId": "0123456",
+      "comment": "test data for unittests",
+      "__v": 1337,
+      "ecu_best": "607eba4c16c18d00140df635",
+      "test_exceution": "6156d800a9ef06183decd75a",
+      "task_category": "6156d809a9ef06183decd75b",
+      "milestone": null,
+      "programLine": "TEST123_M20E22"
+    }
+  ],
+  "datasetvariants": [
+    {
+      "_id": "6156d7eda9ef06183decd759",
+      "users": [],
+      "softwareLine": "6156d7aea9ef06183decd755",
+      "customerOrderNumber": "0123456789A",
+      "customerHardwareNumber": "A987654321",
+      "platform": "TestPlatform",
+      "model": "DummyChassis",
+      "engineCode": "ABCD",
+      "displacement": "1.4",
+      "power": "0",
+      "market": "6156d81aa9ef06183decd75c",
+      "emissionStandard": "6156d79fa9ef06183decd754",
+      "__v": 0,
+      "cylinder": 37,
+      "modelYear": 2222,
+      "pmFilter": true,
+      "transmission": "TestTransmission"
+    }
+  ],
+  "combustionprocesses": [{ "_id": "6156d7dfa9ef06183decd758", "name": "Otto", "__v": 1 }],
+  "customers": [{ "_id": "6156d7cea9ef06183decd757", "name": "TestCustomer" }],
+  "softwarelines": [
+    {
+      "_id": "6156d7aea9ef06183decd755",
+      "dataset": "D12345V22C001",
+      "ecu": "MED 123.4.x",
+      "fuel": "61dc03501c00b24f0ccff7f6",
+      "injectionSystem": "6156d847a9ef06183decd75d",
+      "subProject": "6156d858a9ef06183decd75e",
+      "engineFamily": "6156d7bfa9ef06183decd756",
+      "__v": 6,
+      "softwarePartNumber": null
+    }
+  ],
+  "fuels": [
+    {
+      "name": "TestFuel",
+      "_id": "61dc03501c00b24f0ccff7f6"
+    }
+  ],
+  "subprojects": [{ "name": "Lang PHEV", "_id": "6156d858a9ef06183decd75e" }],
+  "emissionstandards": [{ "_id": "6156d79fa9ef06183decd754", "name": "TestEmissionStandard" }],
+  "maturities": [{ "_id": "6156d76fa9ef06183decd753", "name": "TestSerie" }],
+  "injectionsystems": [{ "_id": "6156d847a9ef06183decd75d", "name": "TestInjectionSystem" }],
+  "markets": [{ "_id": "6156d81aa9ef06183decd75c", "name": "TestMarket" }],
+  "ecubests": [
+    {
+      "_id": "607eba4c16c18d00140df635",
+      "tag": true,
+      "testcase_list": true,
+      "team": "SRL",
+      "model_type": null,
+      "comment": "Dummy",
+      "__v": 0
+    }
+  ],
+  "featurecategories": [
+    {
+      "_id": "5f562b5265becb0017159257",
+      "name": "TestFeatureCategory",
+      "__v": 1337
+    }
+  ],
+  "attachments": [
+    {
+      "_id": "5f58686c4779910015d5f8ae",
+      "data": null,
+      "reference": "6156d7bfa9ef06183decd756",
+      "referenceType": "EngineFamily",
+      "type": null
+    }
+  ],
+  "conflicteddates": [
+    {
+      "_id": "61b98caace37927008d56fa7",
+      "release": "6156d86ba9ef06183decd75f",
+      "assignment_date": { "$date": "2021-12-16T00:00:00.000Z" },
+      "execution_date": { "$date": "2021-12-17T00:00:00.000Z" },
+      "name": "TestConflictedDate",
+      "moped": "Test from API MoPed",
+      "tracking_category": "5f44ab0475c92b00151f42a2",
+      "status": "61b9f2a019b069b260f7aa61",
+      "__v": 0
+    }
+  ],
+  "trackingcategories": [
+    {
+      "_id": "5f44ab0475c92b00151f42a2",
+      "name": "TestTrackingCategory",
+      "__v": 0
+    }
+  ],
+  "status": [
+    {
+      "_id": "61b9f2a019b069b260f7aa61",
+      "name": "TestStatus",
+      "__v": 0
+    }
+  ],
+  "hilmodels": [
+    {
+      "_id": "61e6578b338bc3048b45498a",
+      "CommunicationMatrix": "TestCommMatrix",
+      "SoftwareBundleVersion": "TestSwBundle"
+    }
+  ],
+  "histories": [
+    {
+      "_id": "61b2eccb25bece8f64d77209",
+      "document_id": "6156d86ba9ef06183decd75f",
+      "changedAt": { "$date": "2021-12-10T05:59:39.350Z" },
+      "version": 0,
+      "user": "5f9964abf5d88d0016eca6bf",
+      "data": "{\"maturity\":{\"new\":\"60c72e9a371f0531d0afe74d\",\"old\":{\"id\":\"60c72e9a371f0531d0afe74d\",\"data\":\"{\\\"name\\\":\\\"S\\\"}\"}},\"ecu_best\":{\"new\":\"61a605174b773ec0c46ac923\",\"old\":{\"id\":\"61a605174b773ec0c46ac923\",\"data\":\"{\\\"tag\\\":true,\\\"testcase_list\\\":true,\\\"delivery_deadline\\\":\\\"2021-12-16T00:00:00.000Z\\\",\\\"comment\\\":\\\"tailoring from 551AE_0001\\\"}\"}},\"feature_category\":{\"new\":\"5f562b544e86cd001526ddef\",\"old\":null},\"task_category\":{\"new\":\"60fe4739fed3580015c587ef\",\"old\":{\"id\":\"60fe4739fed3580015c587ef\",\"data\":\"{\\\"name\\\":\\\"tailoring\\\"}\"}},\"test_execution\":{\"new\":\"61a48c18eb7d2104a84c68ce\",\"old\":{\"id\":\"61a48c18eb7d2104a84c68ce\",\"data\":\"{\\\"support_needed\\\":false}\"}}}",
+      "in": "datasetRelease"
+    }
+  ],
+  "users": [
+    {
+      "_id": "5f9964abf5d88d0016eca6bf",
+      "name": "TestUser",
+      "ntUser": "abc2def",
+      "follows": []
+    }
+  ],
+  "mappings": [
+    {
+      "_id": "5f44aa5b882dd259a4d375a9",
+      "values": ["Getriebe", "Transmission"],
+      "key": "transmission",
+      "description": "Transmission",
+      "format": "Text",
+      "optional": true,
+      "type": "Dataset variant",
+      "__v": 0
+    }
+  ],
+  "modeltypes": [{ "_id": "61262c528234d700166cbade", "name": "TestModelType", "__v": 0 }],
+  "powertrains": [{ "_id": "61b07c707963465ad8ff3aa4", "name": "TestPowerTrain", "__v": 0 }],
+  "settings": [
+    {
+      "_id": "615bfe9ad410d719d8a4514d",
+      "key": "TestSetting",
+      "value": "17",
+      "__v": 0
+    }
+  ]
+}
